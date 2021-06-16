@@ -3,6 +3,7 @@
 #header .topHead {
   background: #1A4781;
   height: 60px;
+  
 }
 
 #header .topHead .part-1,
@@ -90,6 +91,24 @@
 #navBar {
   padding: 16px 0;
 }
+#navBar {
+  position: fixed;
+  z-index: 10000;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    
+}
+#navBar.sticky {
+  background: rgb(255, 255, 255);
+  margin-top: -60px;
+  transition: .2s linear ;
+  border-bottom: 3px solid #ddd;
+  
+}
+#navBar.sticky {
+    padding:  0;
+}
+
 
 #navBar ul li {
   margin-right: 30px;
@@ -186,6 +205,7 @@
   background-size: cover;
   width: 100%;
   height: 645px;
+  margin-top: 128px;
 }
 
 #hero hgroup {}
@@ -1721,6 +1741,7 @@
   align-items: center;
   height: 185px;
   background-color: #F6F8FB;
+  margin-top: 128px;
 }
 
 #pageName .pageName {
