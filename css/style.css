@@ -153,8 +153,24 @@
     display: none;
 
   }
+  #navBar .navbar-collapse ul li:last-child {
+    border-right: none;
+}
 }
 
+@media only screen and (max-width: 576px) {
+  #pageLink .part-1 {
+    display: flex;
+    top: 2px;
+}
+#pageLink .part-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+#pageLink .part-1 a {
+  font-size: 14px !important;
+}
+}
 @media only screen and (max-width: 320px) {
   #navBar img {
     width: 165px;
@@ -2431,6 +2447,210 @@ color: #fff;
 @media only screen and (max-width: 320px) {
   #about_Message .part-2 .btn {
     margin-left: 8px;
+  }
+}
+
+
+
+
+/* Service Page strat here..... */
+
+
+/* Service Card */
+#Service_Card {
+  background-color: #ffffff;
+  width: 100%;
+}
+#Service_Card .part-1{
+  padding-left: 0;
+  padding-right: 50px;
+}
+#Service_Card .part-2{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#Service_Card .part-3{
+  padding-right: 0;
+  padding-left: 50px;
+}
+#Service_Card .part-4{
+  padding-left: 0;
+  padding-right: 50px;
+}
+#Service_Card .part-5{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#Service_Card .part-6{
+  padding-right: 0;
+  padding-left: 50px;
+}
+#Service_Card .bottom{
+  margin-top: 50px;
+}
+
+
+#Service_Card h2 {
+  font-size: 38px;
+  color: #1C1C1C;
+  font-weight: 700;
+  margin-top: 83px;
+  margin-bottom: 59px;
+}
+
+#Service_Card .card img {
+  position: relative;
+}
+
+#Service_Card .card span {
+  font-size: 14px;
+  color: #17519D;
+
+}
+
+#Service_Card .card .card-body p {
+  padding-bottom: 18px;
+}
+
+#Service_Card .card .card-title {
+  font-size: 22px;
+  color: #1C1C1C;
+  font-weight: 700;
+}
+
+#Service_Card .card .card-text {
+  font-size: 14px;
+  color: #1C1C1C;
+  text-align: justify;
+}
+
+#Service_Card .card a {
+  font-size: 14px;
+  color: #AFAFAF;
+}
+#Service_Card .card a:hover {
+  color: #1C56A1;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  #Service_Card {
+    margin-top: 0 !important;
+    max-height: none;
+  }
+  #Service_Card .part-1{
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  #Service_Card .part-2{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #Service_Card .part-3{
+    padding-right: 0;
+    padding-left: 20px;
+  }
+  #Service_Card .part-4{
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  #Service_Card .part-5{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #Service_Card .part-6{
+    padding-right: 0;
+    padding-left: 20px;
+  }
+  #Service_Card .bottom{
+    
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #Service_Card {
+    margin-top: 0 !important;
+    max-height: none;
+  }
+
+  #Service_Card .card {
+    margin-top: 28px;
+    margin-bottom: 30px;
+  }
+  #Service_Card .part-1{
+    padding-left: 0;
+    padding-right: 10px;
+  }
+  #Service_Card .part-2{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #Service_Card .part-3{
+    padding-left: 0;
+    padding-right: 10px;
+  }
+  #Service_Card .part-4{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #Service_Card .part-5{
+    padding-left: 0;
+    padding-right: 10px;
+  }
+  #Service_Card .part-6{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #Service_Card .bottom{
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #Service_Card {
+    margin-top: 0px !important;
+    max-height: none;
+}
+
+  #Service_Card h2 {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  #Service_Card {
+    margin-top: 0px !important;
+    max-height: none;
+}
+
+  #Service_Card .container {
+    padding-bottom: 77px;
+  }
+
+  #Service_Card h2 {
+    margin-top: 34px;
+    margin-bottom: 38px;
+  }
+
+  #Service_Card h2 {
+    margin-bottom: 0px;
+  }
+  #Service_Card .part-1, 
+  #Service_Card .part-2, 
+  #Service_Card .part-3,
+  #Service_Card .part-4,
+  #Service_Card .part-5,
+  #Service_Card .part-6{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #Service_Card {
+    margin-top: 1096px;
+
   }
 }
 
