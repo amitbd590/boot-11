@@ -11,4 +11,11 @@ var typed = new Typed('.type', {
 });
 
 
+$("#plus").click(function () {
+  $("#effect").addClass("plus")
+})
+
+
+
+
 
