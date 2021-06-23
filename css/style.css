@@ -3384,3 +3384,119 @@ margin-bottom: 100px;
 }
 }
 
+
+/* single Project Page*/
+
+#singleProject-left-section{
+  margin-top: 127px;
+  margin-bottom: 100px;
+}
+#singleProject-left-section img{
+box-shadow: 4px 10px 22px #c7c7c7d9;
+}
+#singleProject-left-section .part-1 h2{
+font-size: 28px;
+font-weight: bold;
+margin-top: 90px;
+}
+#singleProject-left-section .part-1 .text-1{
+font-size: 18px;
+margin-top: 20px;
+}
+#singleProject-left-section .part-1 hr{
+margin-top: 40px;
+}
+#singleProject-left-section .part-1 hr{
+  font-size: 15px;
+  text-align: justify;
+margin-top: 30px;
+}
+#singleProject-left-section .part-2{
+margin-top: 51px;
+}
+#singleProject-left-section .part-2 .head-text{
+margin-bottom: 40px;
+}
+#singleProject-left-section .part-2 h2{
+font-weight: bold;
+}
+#singleProject-left-section .card{
+    flex-direction: inherit;
+    border:none;
+}
+#singleProject-left-section .card  .card-header{
+    border: none;
+    background: none;
+    padding: 3px 1px;
+    
+}
+#singleProject-left-section .card  .card-header .btn-link{
+  padding: 14px 20px;
+  background: #1A4781;
+  border: 1px solid #ddd;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+#singleProject-left-section  #collapseOne,
+#singleProject-left-section  #collapseTwo,
+#singleProject-left-section  #collapseThree{
+  border: 1px solid #ddd !important;
+}
+#singleProject-left-section .card  .card-header .collapsed{
+  background: rgb(255, 255, 255);
+  color: rgb(28, 28, 28);
+}
+#singleProject-left-section .card-body hgroup{
+display: flex;
+margin-bottom: 30px;
+margin-top: 10px;
+}
+#singleProject-left-section .card-body hgroup i{
+color: #17519D;
+}
+#singleProject-left-section .card-body hgroup .text{
+font-size: 15px;
+}
+#singleProject-left-section .item-2 hgroup{
+margin-top: 92px;
+}
+#singleProject-left-section .item-2 hgroup h2{
+font-size: 28px;
+font-weight: bold;
+}
+#singleProject-left-section .item-2 hgroup h3{
+font-size: 15px;
+font-weight: bold;
+margin-top: 37px;
+margin-bottom: 20px;
+}
+#singleProject-left-section .item-2 hgroup .text{
+font-size: 14px;
+margin-top: 30px;
+}
+#singleProject-left-section .item-2 .date_n p{
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+@media only screen and (max-width:991px){
+  #singleProject-left-section .item-2 {
+    margin-top: 50px;
+  }
+  #singleProject-left-section .card{
+    text-align: center;
+    flex-direction: column;
+}
+}
+@media only screen and (max-width:767px){
+  #singleProject-left-section .item-2 {
+    text-align: center;
+  }
+  #singleProject-left-section .card{
+    text-align: center;
+    flex-direction: column;
+}
+}
+
+
