@@ -3275,3 +3275,112 @@ margin-bottom: 80px;
 
 
 
+
+/* Our Project Page */
+
+#our-project-card{
+  
+}
+#our-project-card .part-1,
+#our-project-card .part-2,
+#our-project-card .part-3{
+margin-top: 80px;
+}
+
+#our-project-card .part-3{
+margin-bottom: 100px;
+}
+#our-project-card .card .card-img-overlay{
+  width: 100%;
+  padding-top: 25%;
+  background-color: #1A4781;
+  opacity: 0;
+  transition: .7s, transform .7s;
+  transform: rotateX(-180deg);
+}
+#our-project-card .card:hover .card-img-overlay{
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+#our-project-card .card .card-img-overlay h3{
+  font-size: 16px;
+  color: #fff;
+}
+#our-project-card .card .card-img-overlay h2{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+#our-project-card .card .card-img-overlay a{
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  animation-duration: .5s;
+  animation-delay: .3s;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  animation-name: icon;
+}
+@keyframes icon {
+  from {
+    margin-left: -10px;
+  }
+  to {
+    margin-left: 10px;
+  }
+}
+
+
+
+@media only screen and (max-width:1200px){
+  
+}
+@media only screen and (max-width:991px){
+  #our-project-card .card .card-img-overlay {
+    padding-top: 20%; 
+}
+#our-project-card .card .card-img-overlay h3{
+  font-size: 14px;
+}
+#our-project-card .card .card-img-overlay h2{
+  font-size: 18px;
+  font-weight: 600;
+}
+}
+@media only screen and (max-width:767px){
+  #our-project-card .card{
+    margin-top: 40px;
+  }
+  #our-project-card .part-1 {
+    margin-top: 30px;
+}
+#our-project-card .part-2, #our-project-card .part-3 {
+    margin-top: 0;
+}
+#our-project-card .card .card-img-overlay h3 {
+  font-size: 34px;
+}
+#our-project-card .card .card-img-overlay h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+#our-project-card .card .card-img-overlay{
+  padding-top: 25%;
+
+}
+}
+
+@media only screen and (max-width:575px){
+  #our-project-card .card .card-img-overlay {
+    padding-top: 20%; 
+}
+#our-project-card .card .card-img-overlay h3 {
+  font-size: 20px;
+}
+#our-project-card .card .card-img-overlay h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+}
+
