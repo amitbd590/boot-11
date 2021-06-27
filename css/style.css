@@ -3787,3 +3787,59 @@ color: #17519D;
 }
 
 
+/* Team page start here. */
+
+#Team{
+  
+}
+#Team .card-item{
+margin-top: 100px;
+}
+#Team .card-item figure{
+position: relative;
+}
+#Team .card-item .overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #1a1a1a65;
+cursor: pointer;
+}
+#Team .card-item .overlay:hover{
+background: #1a1a1a00;
+}
+#Team .card-item .card-title{
+font-size: 20px;
+font-weight: bold;
+margin-top: 30px;
+}
+#Team .card-item h5{
+font-size: 15px;
+color: #17519D;
+font-weight: 700;
+}
+#Team .card-item .card-text{
+font-size: 15px;
+text-align: justify;
+margin-top: 10px;
+}
+#Team .card-item .social{
+margin-top: 15px;
+}
+#Team .card-item .social .fab{
+font-size: 20px;
+margin-left: 10px;
+color: #575757;
+}
+#Team .card-item .social .fab:hover{
+color: #1A4781;
+}
+
+
+@media only screen and (max-width:575px){
+  #Team .card-item {
+    margin-top: 70px;
+}
+}
