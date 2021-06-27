@@ -3843,3 +3843,122 @@ color: #1A4781;
     margin-top: 70px;
 }
 }
+
+
+/* Contact page  */
+
+#contact-part-1{
+  
+}
+#contact-part-1 .part-1{
+  margin-top: 78px;
+  padding: 0 100px;
+  
+}
+#contact-part-1 .part-2 {
+  margin-top: 65px;
+  margin-bottom: 87px;
+}
+#contact-part-1 .part-2 hgroup {
+ border: 1px solid #ddd;
+ cursor: pointer;
+ padding-bottom: 43px;
+}
+#contact-part-1 .part-2 hgroup .fas {
+margin-top: 25px;
+font-size: 20px;
+}
+#contact-part-1 .part-2 hgroup h3 {
+font-size: 24px;
+font-weight: bold !important;
+margin-top: 10px;
+}
+#contact-part-1 .part-2 hgroup p {
+font-size: 14px;
+margin-top: 10px;
+
+}
+#contact-part-1 .part-2 .social .fab {
+font-size: 15px;
+margin-left: 5px;
+}
+#contact-part-1 .part-2 .social .fab:hover {
+color: #858585;
+}
+#contact-part-1 .part-2 hgroup:hover {
+  background: #17519D;
+}
+#contact-part-1 .part-2 hgroup:hover .fas,
+#contact-part-1 .part-2 hgroup:hover h3,
+#contact-part-1 .part-2 hgroup:hover p,
+#contact-part-1 .part-2 hgroup:hover .fab
+{
+  color: #fff;
+}
+
+
+
+#contact-location-part{
+margin-bottom: 130px;
+}
+#contact-location-part .part-1 h2,
+#contact-location-part .part-2 h2
+{
+  font-weight: bold;
+}
+#contact-location-part #googleMap{
+  margin-top: 40px;
+}
+#contact-location-part .form-inline .form-control {
+  display: inline-block;
+  width: 367px;
+  vertical-align: middle;
+}
+#contact-location-part .contact-box .website,
+#contact-location-part .contact-box .textarea
+{
+  width: 100%;
+}
+#contact-location-part .contact-box .btn{
+  background: #1A4781 !important;
+  padding: 15px 20px;
+  border: 2px solid #ddd;
+}
+#contact-location-part .contact-box .btn:hover{
+  background: #fff !important;
+  border: 2px solid #17519D;
+  color: #0e0e0e;
+  margin-top: 14px;
+}
+
+
+
+@media only screen and (max-width:1200px){
+  #contact-location-part .form-inline .form-control {
+    width: 100%;
+}
+}
+@media only screen and (max-width:991px){
+#contact-location-part .part-2{
+ text-align: center;
+}
+#contact-part-1 .part-2 .col-lg-4{
+  margin-bottom: 50px;
+}
+#contact-location-part{
+  text-align: center;
+}
+#contact-part-1 .part-2 {
+  margin-top: 65px;
+  margin-bottom: 31px;
+}
+#contact-location-part .contact-box {
+  margin-top: 53px;
+}
+}
+@media only screen and (max-width:767px){
+  #contact-part-1 .part-1 {
+    margin-top: 78px;
+    padding: 0 0;
+}
+}
